@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.org/posts/artikel-ketiga/</loc>
+    <lastmod>2025-09-22T13:12:42+07:00</lastmod>
+  </url><url>
     <loc>https://example.org/posts/</loc>
     <lastmod>2025-09-22T13:12:42+07:00</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
     <lastmod>2025-09-22T13:12:42+07:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/artikel-kedua/</loc>
+    <lastmod>2025-09-22T13:07:18+07:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/judul-artikel/</loc>
+    <lastmod>2025-09-22T12:56:13+07:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/artikel-pertama/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/</loc>
   </url><url>
