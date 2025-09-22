@@ -6,35 +6,7 @@
     <description>Recent content in Posts on selamat datang di blog siwahyucoyor</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Sep 2025 13:12:42 +0700</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Artikel Ketiga</title>
-      <link>https://example.org/posts/artikel-ketiga/</link>
-      <pubDate>Mon, 22 Sep 2025 13:12:42 +0700</pubDate>
-      <guid>https://example.org/posts/artikel-ketiga/</guid>
-      <description>&lt;p&gt;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamclmcmlmc&#xA;zxjkdfvkldjgfdkfjdkfgjgdfgjkdfgkjgdf&#xA;dsjkdljkkjsgkj;sjjk;sf;jsfk;sj;kfg&#xA;l;sdklf;k;sgfkl;skg;ks;lkl;sg&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Artikel Kedua</title>
-      <link>https://example.org/posts/artikel-kedua/</link>
-      <pubDate>Mon, 22 Sep 2025 13:07:18 +0700</pubDate>
-      <guid>https://example.org/posts/artikel-kedua/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;draft-true&#34;&gt;title: &amp;ldquo;Artikel Kedua&amp;rdquo;&#xA;date: 2025-09-22&#xA;draft: true&lt;/h2&gt;&#xA;&lt;p&gt;Ini adalah &lt;strong&gt;artikel kedua&lt;/strong&gt; di blog Hugo saya.&lt;br&gt;&#xA;Artikel ini berisi tips dan trik menulis konten di Hugo dengan cepat dan mudah.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Judul Artikel</title>
-      <link>https://example.org/posts/judul-artikel/</link>
-      <pubDate>Mon, 22 Sep 2025 12:56:13 +0700</pubDate>
-      <guid>https://example.org/posts/judul-artikel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artikel Pertama</title>
-      <link>https://example.org/posts/artikel-pertama/</link>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/artikel-pertama/</guid>
-      <description>&lt;p&gt;Ini adalah &lt;strong&gt;artikel pertama&lt;/strong&gt; di blog Hugo saya.&lt;br&gt;&#xA;Di sini saya belajar cara membuat artikel, menambahkan konten, dan menampilkannya di browser.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
