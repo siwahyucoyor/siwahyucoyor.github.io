@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #333;
+  min-height: 100vh;          /* biar full layar */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;  /* hanya header yang fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+main {
+  flex: 1;  /* dorong footer ke bawah */
+  width: 90%;
+  max-width: 1200px;
+  margin: 6rem auto 2rem auto; /* kasih jarak 6rem dari atas biar gak ketutup header */
+  padding: 1rem;
+  background: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
