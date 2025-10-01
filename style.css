@@ -38,15 +38,15 @@ footer {
   display: flex;
   justify-content: center;
   margin: 6rem auto 3rem auto; /* kasih jarak dari header & footer */
-  max-width: 1200px;
-  width: 90%;
-  padding: 1rem;
+  max-width: 1400px;
   
+  padding: 1rem;
+  gap: 1rem;
 }
 
 /* artikel utama */
 main {
-  flex: 5;
+  flex: 8;
   background: #222;
   padding: 2rem;
   border-radius: 8px;
