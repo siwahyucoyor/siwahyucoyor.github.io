@@ -36,20 +36,21 @@ footer {
 /* container utama (sidebar kiri - artikel - sidebar kanan) */
 .container {
   display: flex;
+  justify-content: center;
   margin: 6rem auto 3rem auto; /* kasih jarak dari header & footer */
   max-width: 1200px;
   width: 90%;
   padding: 1rem;
-  gap: 1rem;
+  
 }
 
 /* artikel utama */
 main {
-  flex: 2;
+  flex: 4;
   background: #222;
-  padding: 1rem 2rem;
+  padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  
 }
 
 article {
