@@ -46,7 +46,7 @@ footer {
 
 /* artikel utama */
 main {
-  flex: 8;
+  flex: 5;
   background: #222;
   padding: 2rem;
   border-radius: 8px;
