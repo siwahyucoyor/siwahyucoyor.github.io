@@ -4,7 +4,7 @@ body {
   padding: 0;
   background: #000;
   color: #ddd;
-  min-height: 100vh;          /* biar full layar */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -14,25 +14,11 @@ header {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  position: fixed;  /* hanya header yang fixed */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-}
-
- main {
-  width: 90%;
-  max-width: 1000px;   /* lebih besar dari 800px */
-  margin: 10rem auto 2rem auto;
-  padding: 2rem 2rem;
-  background: #222;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-
-}
-
-
 }
 
 footer {
@@ -40,94 +26,42 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
-h1, h2 {
-  color: #fff;
+/* container utama (sidebar kiri - artikel - sidebar kanan) */
+.container {
+  display: flex;
+  margin: 6rem auto 3rem auto; /* kasih jarak dari header & footer */
+  max-width: 1200px;
+  width: 90%;
+  padding: 1rem;
+  gap: 1rem;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+/* artikel utama */
+main {
+  flex: 2;
+  background: #222;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
-
-li {
-  margin: 0.5rem 0;
-}
-
-a {
-  color: #4da3ff;   /* biru muda lebih kelihatan */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #66c2ff;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* artikel */
 
 article {
-  background: #222;
-  padding: 2rem;
-  border-radius: 8px;
   line-height: 1.6;
   color: #ddd;
 }
 
-article h2 {
+article h1, article h2 {
   color: #fff;
-  margin-bottom: 1rem;
 }
 
-article em {
-  color: #999;
-  font-size: 0.9rem;
-}
-
-/* sidebar */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #000;
-  color: #ddd;
-}
-
-header, footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  width: 100%;
-  left: 0;
-  z-index: 10;
-}
-
-header { top: 0; }
-footer { bottom: 0; }
-
-.container {
-  display: flex;
-  margin: 6rem auto 3rem auto; /* kasih jarak header & footer */
-  max-width: 1200px;
-  padding: 1rem;
-}
-
-main {
-  flex: 2;
-  background: #222;
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 0 1rem;
-}
-
+/* sidebar kiri & kanan */
 .sidebar {
   flex: 1;
   background: #111;
@@ -150,11 +84,11 @@ main {
 }
 
 .sidebar a {
-  color: #06c;
+  color: #4da3ff;
   text-decoration: none;
 }
 
 .sidebar a:hover {
   text-decoration: underline;
+  color: #66c2ff;
 }
-
