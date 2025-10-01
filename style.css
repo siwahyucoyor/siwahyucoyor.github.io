@@ -1,3 +1,4 @@
+/* ====== Global ====== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,11 +10,15 @@ body {
   flex-direction: column;
 }
 
-header {
+/* ====== Header & Footer ====== */
+header, footer {
   background: #222;
   color: #fff;
   text-align: center;
   padding: 1rem;
+}
+
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -22,55 +27,34 @@ header {
 }
 
 footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
+  margin-top: auto;
 }
 
-/* container utama (sidebar kiri - artikel - sidebar kanan) */
+/* ====== Container utama ====== */
 .container {
   display: flex;
-  justify-content: space-between;
-  margin: 6rem auto 3rem auto; /* kasih jarak dari header & footer */
-  max-width: 1200px;
-  width: 100%;
-  padding: 1rem;
   gap: 1rem;
+  max-width: 1200px;
+  margin: 7rem auto 3rem auto; /* kasih jarak biar tidak nempel header */
+  padding: 1rem;
 }
 
-/* artikel utama */
-main {
-  flex: 3;
-  background: #222;
-  padding: 2rem;
-  border-radius: 8px;
-  
-}
-
-article {
-  line-height: 1.6;
-  color: #ddd;
-}
-
-article h1, article h2 {
-  color: #fff;
-}
-
-/* sidebar kiri & kanan */
+/* ====== Sidebar & Main ====== */
 .sidebar {
   flex: 1;
-  min-width: 200px;
   background: #111;
   padding: 1rem;
   border-radius: 8px;
 }
 
+main {
+  flex: 2;
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* ====== Judul Sidebar ====== */
 .sidebar h2 {
   color: #fff;
   margin-bottom: 0.5rem;
@@ -93,4 +77,23 @@ article h1, article h2 {
 .sidebar a:hover {
   text-decoration: underline;
   color: #66c2ff;
+}
+
+/* ====== Responsive (HP) ====== */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  main {
+    order: 1; /* Artikel di atas */
+  }
+
+  .sidebar-left {
+    order: 2; /* Sidebar kiri turun */
+  }
+
+  .sidebar-right {
+    order: 3; /* Sidebar kanan paling bawah */
+  }
 }
