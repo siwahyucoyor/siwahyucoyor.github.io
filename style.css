@@ -37,7 +37,7 @@ footer {
   gap: 1rem;
   max-width: 1400px;
   margin: 7rem 1rem 3rem 1rem; /* kasih jarak biar tidak nempel header */
-     
+  padding-top: 100px;   
   width:calc(100% - 2rem);
 }
 
