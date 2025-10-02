@@ -48,7 +48,7 @@ footer {
 }
 
 main {
-  flex: 2;
+  flex: 6;
   background: #222;
   padding: 1rem;
   border-radius: 8px;
