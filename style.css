@@ -32,24 +32,26 @@ footer {
 
 /* ====== Container utama ====== */
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
   gap: 1rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 7rem auto 3rem auto; /* kasih jarak biar tidak nempel header */
   padding: 1rem;
+  width: 100%;
 }
 
 /* ====== Sidebar & Main ====== */
 .sidebar {
-  flex: 0 0 20%;
+  
   background: #111;
   padding: 1rem;
   border-radius: 8px;
 }
 
 main {
-  flex: 1;
-  min-width: 100%;
+  
+  
   background: #222;
   padding: 1rem;
   border-radius: 8px;
@@ -83,7 +85,7 @@ main {
 /* ====== Responsive (HP) ====== */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .main-content {
