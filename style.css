@@ -41,14 +41,15 @@ footer {
 
 /* ====== Sidebar & Main ====== */
 .sidebar {
-  flex: 1;
+  flex: 0 0 20%;
   background: #111;
   padding: 1rem;
   border-radius: 8px;
 }
 
 main {
-  flex: 6;
+  flex: 1;
+  min-width: 60%;
   background: #222;
   padding: 1rem;
   border-radius: 8px;
