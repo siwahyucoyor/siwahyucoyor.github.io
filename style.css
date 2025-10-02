@@ -33,12 +33,12 @@ footer {
 /* ====== Container utama ====== */
 .container {
   display: grid;
-  grid-template-columns: 15% 1fr 15%;
+  grid-template-columns: 200px 1fr 200px;
   gap: 1rem;
   max-width: 1400px;
-  margin: 7rem auto 3rem auto; /* kasih jarak biar tidak nempel header */
-  padding: 1rem;
-  width: 100%;
+  margin: 7rem 1rem 3rem 1rem; /* kasih jarak biar tidak nempel header */
+     
+  width:calc(100% - 2rem);
 }
 
 /* ====== Sidebar & Main ====== */
