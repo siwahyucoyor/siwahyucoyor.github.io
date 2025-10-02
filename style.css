@@ -57,6 +57,19 @@ main {
   border-radius: 8px;
 }
 
+.main-content ul li a {
+  font-size: 1.5rem;   /* besarkan ukuran */
+  font-weight: bold;   /* bikin tebal */
+  color: #4da3ff;      /* kasih warna biar menarik */
+  text-decoration: none;
+}
+
+.main-content ul li a:hover {
+  color: #66c2ff;
+  text-decoration: underline;
+}
+
+
 /* ====== Judul Sidebar ====== */
 .sidebar h2 {
   color: #fff;
