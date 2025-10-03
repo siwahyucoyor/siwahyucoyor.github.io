@@ -120,3 +120,41 @@ main {
     order: 3; /* Sidebar kanan paling bawah */
   }
 }
+
+/* ====== Halaman Artikel ====== */
+main {
+  margin-top: 120px; /* biar isi artikel tidak ketutup header */
+}
+
+.article {
+  background: #222;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+  color: #ddd;
+}
+
+.article h1 {
+  font-size: 2rem;   /* judul artikel lebih besar */
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.article h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.article h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #ccc;
+}
+
+.article p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
