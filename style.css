@@ -24,10 +24,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 10;
-  background: #222 !important;  /* paksa biar sama */
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+  
 
 }
 
