@@ -28,6 +28,16 @@ header {
 
 }
 
+.article img {
+  display: block;         /* bikin gambar jadi block biar bisa diatur */
+  margin: 1.5rem auto;    /* kasih jarak atas-bawah + posisikan di tengah */
+  max-width: 100%;        /* biar nggak lebih lebar dari layar */
+  height: auto;           /* jaga rasio gambar */
+  border-radius: 8px;     /* sudut agak melengkung, opsional */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* efek bayangan biar elegan */
+}
+
+
 footer {
   margin-top: auto;
 }
