@@ -96,6 +96,13 @@ main {
   margin: 120px auto 2rem auto;
 }
 
+.article h1 {
+  text-align: center;   /* Biar teks rata tengah */
+  font-size: 2rem;      /* Perbesar ukuran huruf */
+  margin-bottom: 1rem;  /* Kasih jarak ke bawah */
+  color: #fff;          /* Warna putih biar kontras */
+}
+
 
 /* ====== Judul Sidebar ====== */
 .sidebar h2 {
