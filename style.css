@@ -74,6 +74,8 @@ main {
   font-weight: bold;   /* bikin tebal */
   color: #4da3ff;      /* kasih warna biar menarik */
   text-decoration: none;
+  margin-bottom: 1em;
+  line-height: 1.6;
 }
 
 .main-content ul li a:hover {
