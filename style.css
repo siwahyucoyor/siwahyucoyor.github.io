@@ -74,9 +74,13 @@ main {
   font-weight: bold;   /* bikin tebal */
   color: #4da3ff;      /* kasih warna biar menarik */
   text-decoration: none;
+
   
 }
 
+.main-content ul li {
+  margin-bottom: 12px; /* Tambahkan jarak antar artikel */
+}
 .main-content ul li a:hover {
   color: #66c2ff;
   text-decoration: underline;
